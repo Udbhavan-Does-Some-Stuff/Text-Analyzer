@@ -1,0 +1,14 @@
+User Input (text)
+   ↓
+FastAPI Endpoint
+   ↓
+Validation (Pydantic)
+   ↓
+Text Processing (cleaning, tokenizing)
+   ↓
+Analysis Layer
+   ├── Sentiment
+   ├── Keywords
+   └── Stats
+   ↓
+Formatted JSON Response
