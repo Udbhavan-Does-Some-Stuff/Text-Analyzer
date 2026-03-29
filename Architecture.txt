@@ -1,0 +1,21 @@
+text-analyzer/
+│
+├── app/
+│   ├── main.py              # FastAPI entry point
+│   ├── api/                 # Routes (endpoints)
+│   │   └── routes.py
+│   │
+│   ├── models/              # Request/response schemas
+│   │   └── schemas.py
+│   │
+│   ├── services/            # Core logic (important)
+│   │   ├── sentiment.py
+│   │   ├── keywords.py
+│   │   └── stats.py
+│   │
+│   ├── utils/               # Helper functions
+│   │   └── text_cleaner.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
